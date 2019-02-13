@@ -5,4 +5,4 @@ compiler:
 -gcc
 script:
 -gcc-otesttest.c//wecanusegccinsteadofclangtoo
--./test
+-./fingLEBE
