@@ -4,5 +4,5 @@ compiler:
 -clang
 -gcc
 script:
--gcc-otesttest.c//wecanusegccinsteadofclangtoo
--./fingLEBE
+-gcc -o test findLEBE.c  //wecanusegccinsteadofclangtoo
+-./findLEBE
