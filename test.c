@@ -56,7 +56,7 @@ int main()
 
 int *myfunc()
 {
-int a[5]={10,20,30,40,50};
+
 int t=1;
 int **iptr=malloc(10*sizeof(int));
 for(int i=0;i<10;i++)
