@@ -2,9 +2,7 @@ matrix:
   include:
     -language:c
      sudo:false #onlyforfasterbuilds
-     compiler:
-        -clang
-        -gcc
-      script:
+     compiler:gcc
+     script:
          -gcc -o test test.c  //wecanusegccinsteadofclangtoo
          -./test
